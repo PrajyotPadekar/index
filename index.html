@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<Head>
+    <title>First Project</title>
+    <link rel="stylesheet" href="style.css">
+</Head>
+<body>
+    <div class="backgroundclr">
+
+    <!--Heading tags-->
+    <h1>This is <b>heading</b></h1>
+    <h2>This is <mark>heading</mark></h2>
+    <h3>This is <u>heading</u></h3>
+    <h4>This is <i>heading</i></h4>
+    <h5>This is <del>heading</del></h5>
+    <h6>This is heading</h6>
+
+    <!--Paragraph tag-->
+    <div class="backgroundimg">
+    <p class="font">My name is Prajyot Padekar.I am from Sangamner, Maharashtra.</p>
+    <p class="font">I have completed my graduation from Amrutvahini College of Engineering in Information Technology Branch from 2021 batch with an aggregate 68 %. I got 82 % in 10<sup>th</sup> standard and 62 % in 12<sup>th</sup> standard.</p>
+    <p class="font">I like a reading a books and travelling.</p><br>
+
+    <p class="color">Formula of Water is : H<sub>2</sub>O</p>
+    <p>X<sup>2</sup>+Y<sup>2</sup>=Z<sup>2</sup></p><br>
+
+    <p class="p">In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.
+       First, you'll build a cat photo app to learn the basics of HTML and CSS. Later, you'll learn modern techniques like CSS variables by building a penguin, and best practices for accessibility by building a web form.
+       Finally, you'll learn how to make webpages that respond to different screen sizes by building a Twitter card with Flexbox, and a complex blog layout with CSS Grid.</p>
+
+    <!--Anchor tag-->
+   <h3>View more details.<a style="cursor: pointer;" href="https://www.w3schools.com" target="_blank">Visit the W3schools website.</a></h3><br> 
+
+    <!--Image tag-->
+    <img class="thick-green-border" src="https://cdn.pixabay.com/photo/2018/06/08/00/48/developer-3461405_960_720.png" width="300" height="200" alt="Image of coder"><br><br>
+    </div>
+
+    <!--Unorderd list-->
+    <p class="font1">List of items</p>
+    <ul type="square">      <!--Types : circle,square,disc,none-->
+        <li>Laptop</li>
+        <li>Mouse</li>
+        <li>Keyboard</li>
+        <li>Webcam</li>
+    </ul><br><br>
+
+    <!--Ordered list-->
+    <p class="font1">List of programming languages</p>
+    <ol type="I">         <!--Types : 1,A,a,I,i-->
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>Python</li>
+    </ol><br><br>
+
+    <!--Table-->
+    <table border="1" cellspacing="1" cellpadding="10" style="text-align: center;">
+        <tr>
+           <th>Roll No.</th> 
+           <th>Student Name</th> 
+           <th colspan="3">Marks</th>    <!--colspan,rowspan-->
+           <th>Programming lang.</th> 
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Om Ghule</td>
+            <td>98.76</td>
+            <td>78.04</td>
+            <td>69.93</td>
+            <td>C</t>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Shraddha Ghule</td>
+            <td>86.38</td>
+            <td>92.00</td>
+            <td>78.00</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Prajyot Padekar</td>
+            <td>68.00</td>
+            <td>79.98</td>
+            <td>72.56</td>
+            <td>C++</td>
+        </tr>
+    </table><br>
+
+    <!--HTML Form-->
+    <h3 class="font1">Contact form for Student :</h3><br>
+    <form>
+        <label>Username</label><br>
+        <input type="text" name="Username" placeholder="Enter your username"><br>
+
+        <label>Password</label><br>
+        <input type="password" name="password" placeholder="Enter your password"><br>
+
+        <label>Email-id</label><br>
+        <input type="email" name="email" placeholder="Enter a email-id"><br>
+
+        <label>Mobile N0.</label><br>
+        <input type="number" name="Mobile" placeholder="Enter a mobile Number"><br>
+
+        <label>Gender</label><br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other<br><br>
+
+        <select>
+            <option>Select your programming language</option>
+            <option value="c">C</option>
+            <option value="c++">C++</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+        </select><br><br>
+
+        <p>Read all the instructions carefully.</p>
+        <input type="checkbox" name="">Yes,I read all the instructions.<br>
+
+        <input type="submit" name="submit" value="Submit"><br>
+    </form>
+    </div>
+</body>
+</html>
